@@ -15,7 +15,7 @@ class DataContainer extends Component {
 
                 </Col>
                 <Col xs={6} md={10} style={{border : '1px solid green'}}>
-                
+                    PIPELINE
                 
                 </Col>
                 
