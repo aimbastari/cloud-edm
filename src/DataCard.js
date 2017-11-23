@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-
+import {Panel, Glyphicon} from 'react-bootstrap';
 
 
 class DataCard extends Component {
   render() {
     return (
-        <div style={{border : '1px solid green' }}>
-            <h1>{this.props.name}</h1>
-            {this.props.icon}
-        
-        </div>
+        <Panel header={this.props.name} style={{border : '5px solid orange', margin: '10px'}}>
+            <Glyphicon glyph={this.props.glyph}/>
+        </Panel>
     );
   }
 }
