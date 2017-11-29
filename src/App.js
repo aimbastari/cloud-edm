@@ -13,7 +13,7 @@ class App extends Component {
           <h1 className="App-title">Cloud EDM</h1>
         </header>
         
-        <DataContainer />
+        <DataContainer /> 
         <Button bsStyle="info">save</Button>
       </div>
     );
